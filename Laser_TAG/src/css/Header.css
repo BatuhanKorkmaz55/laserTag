@@ -1,0 +1,52 @@
+/* Genel düzen */
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(51, 51, 51, 0.9);
+    /* Daha saydam arka plan */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 0 0px;
+    /* Sol ve sağ boşluk ekler */
+}
+
+/* Başlık stili */
+.title {
+    margin: 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* Navigasyon stili */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+    /* Menü öğeleri arasında boşluk bırakır */
+}
+
+nav li:first-child {
+    margin-left: 0;
+    /* İlk öğede sol boşluk bırakmaz */
+}
+
+.word a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.word a:hover {
+    text-decoration: underline;
+}

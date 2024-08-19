@@ -1,0 +1,32 @@
+/* Ana içeriğin genel düzeni */
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: #252323;
+    /* Arka plan rengini kırmızı yapar */
+    min-height: 100vh;
+    /* Sayfanın tamamını kaplar */
+}
+
+/* İçerik alanları */
+section {
+    width: 100%;
+    max-width: 800px;
+    /* İçeriğin genişliğini sınırlamak için */
+    margin-bottom: 20px;
+    /* Bölümler arasında boşluk */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* İçeriği yatayda ortalar */
+}
+
+.bookingtitle {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 0px 0px;
+}

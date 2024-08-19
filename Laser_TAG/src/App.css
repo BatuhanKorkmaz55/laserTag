@@ -1,0 +1,100 @@
+/* Genel sayfa stili */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header stili */
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(51, 51, 51, 0.9);
+  /* Daha saydam arka plan */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Başlık stili */
+.title {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Navigasyon stili */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+  /* Menü öğeleri arasında boşluk bırakır */
+}
+
+nav li:first-child {
+  margin-left: 0;
+  /* İlk öğede sol boşluk bırakmaz */
+}
+
+.word a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.word a:hover {
+  text-decoration: underline;
+}
+
+/* Ana içeriğin margin-top'u header yüksekliği kadar olmalı */
+.main-content {
+  margin-top: 50px;
+  /* Header yüksekliği */
+  flex: 1;
+  /* İçeriğin kalan alanı kaplamasını sağlar */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer stili */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* App.css */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.admin-panel {
+  padding: 20px;
+  background-color: #f0f0f0;
+}

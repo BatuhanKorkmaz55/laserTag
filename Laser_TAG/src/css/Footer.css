@@ -1,0 +1,11 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    /* Arka plan rengi (isteğe bağlı) */
+    padding: 10px;
+    /* İçerik ile kenarlık arasında boşluk (isteğe bağlı) */
+    color: white;
+}
